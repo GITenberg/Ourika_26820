@@ -19,6 +19,8 @@ creator:
     - http://fr.wikipedia.org/wiki/Claire_de_Duras
     - http://en.wikipedia.org/wiki/Claire_de_Duras
 description: ''
+edition_identifiers:
+  edition_id: http://www.gutenberg.org/ebooks/26820#Ourika
 gutenberg_bookshelf: FR Littérature
 gutenberg_issued: '2008-10-07'
 gutenberg_type: Text
