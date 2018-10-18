@@ -1,188 +1,223 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
-  xmlns:cc="http://web.resource.org/cc/"
   xmlns:dcterms="http://purl.org/dc/terms/"
-  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
   xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:cc="http://web.resource.org/cc/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
   <pgterms:ebook rdf:about="ebooks/26820">
-    <dcterms:language>
-      <rdf:Description rdf:nodeID="N85e7fca0750b424b86ab9bc76e77d895">
-        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">fr</rdf:value>
-      </rdf:Description>
-    </dcterms:language>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/26820.kindle.noimages">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">78332</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/26820"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N8d67e63892874d6eae37523570ddedb0">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-17T03:00:30.163826</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/26820.txt.utf-8">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">87724</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/26820"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-17T03:00:29.236761</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nbd56531d18724f609c60a300438ddaaa">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="Nb497195f0c5f4f0aaf6b722dd5d0b615">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Women, Black -- Fiction</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-10-07</dcterms:issued>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/26820.html.gen">
-        <dcterms:isFormatOf rdf:resource="ebooks/26820"/>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N6f9f926b9cf04cfcb58fa1c9ce1d57ad">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">91298</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-17T03:00:28.972016</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/26820/26820-8.zip">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33386</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nc7873401c57345708986ba6b941dd7a9">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nfb2fab1e262544de8c03d3208f80883b">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/26820"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-10-07T13:59:32</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N79d387a3b9c94feabf4fe7dca190c92b">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>Africans -- France -- Fiction</rdf:value>
-      </rdf:Description>
-    </dcterms:subject>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/26820.epub.noimages">
-        <dcterms:isFormatOf rdf:resource="ebooks/26820"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-17T03:00:29.496509</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N173f83dd90ea4b2990310188c3f8abb2">
+          <rdf:Description rdf:nodeID="N068cc35d087d48259c2649c670649b78">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52487</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T03:25:27.277597</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37935</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/26820"/>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:creator>
-      <pgterms:agent rdf:about="2009/agents/32255">
-        <pgterms:alias>Durfort, Claire Louise Rose Bonne de Coetnempren de Kersaint de, duchesse de Duras</pgterms:alias>
-        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1828</pgterms:deathdate>
-        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Claire_de_Duras"/>
-        <pgterms:webpage rdf:resource="http://fr.wikipedia.org/wiki/Claire_de_Duras"/>
-        <pgterms:name>Duras, Claire de Durfort, duchesse de</pgterms:name>
-        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1777</pgterms:birthdate>
-        <pgterms:alias>Durfort, Claire Louise Rose Bonne de Coëtnempren de Kersaint de, duchesse de Duras</pgterms:alias>
-      </pgterms:agent>
-    </dcterms:creator>
-    <dcterms:type>
-      <rdf:Description rdf:nodeID="Nd616da6e98aa41499646e4b7b083c7b8">
-        <rdf:value>Text</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Nae2909c8f6dc4918855bb549fb24c89a">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Women, Black -- Fiction</rdf:value>
       </rdf:Description>
-    </dcterms:type>
+    </dcterms:subject>
     <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">104</pgterms:downloads>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/26820.plucker">
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/26820.txt.utf-8">
+        <dcterms:isFormatOf rdf:resource="ebooks/26820"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T03:25:27.080605</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nf4db779a7fa2495aa130de9e0a2c5a6d">
+          <rdf:Description rdf:nodeID="N558d6e4c5ada4d249bc0c7b1a24a6a18">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.plucker</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-19T10:39:06.479897</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/26820"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49237</dcterms:extent>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">87728</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">18</pgterms:downloads>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/26820.html.noimages">
+        <dcterms:isFormatOf rdf:resource="ebooks/26820"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">92922</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T03:25:27.182595</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ndebc3afeab954bc39dddac2740659279">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-10-07</dcterms:issued>
+    <pgterms:bookshelf>
+      <rdf:Description rdf:nodeID="N0045a21fc324442a97c951434d72f22e">
+        <rdf:value>FR Littérature</rdf:value>
+        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
+      </rdf:Description>
+    </pgterms:bookshelf>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/26820.kindle.images">
+        <dcterms:isFormatOf rdf:resource="ebooks/26820"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T03:25:27.577589</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">169355</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Ne31afd95bf794386bd2bbfc704804b94">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/26820/26820-8.zip">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N0d31f2c894144a32aca943106a373737">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-10-07T13:59:32</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N7d13f38d7feb42fa8d3ee6e526a5ea94">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33386</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/26820"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N675381453cf34c61ac6bd49f2ef3287a">
+      <rdf:Description rdf:nodeID="N33ffc3a4b7ae4b3cbda2fe966d403843">
         <rdf:value>Race relations -- Fiction</rdf:value>
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
       </rdf:Description>
     </dcterms:subject>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="N979852d3d09346a29ea31216268dddd0">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">fr</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N25731d0515954841b615a9740ae1a450">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+      <rdf:Description rdf:nodeID="N80b0fb13fa0b4f1ea118779b17bd860c">
+        <rdf:value>Africans -- France -- Fiction</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="Nf8197a1c2ae64a20b87babe0550ca6ae">
+        <rdf:value>Text</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+      </rdf:Description>
+    </dcterms:type>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/26820.epub.images">
+        <dcterms:isFormatOf rdf:resource="ebooks/26820"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37935</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N42685ca16e7d44049063b4e2cab125c4">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T03:25:27.238598</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/26820.html.images">
+        <dcterms:isFormatOf rdf:resource="ebooks/26820"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T03:25:27.160605</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N80d2832b43fc4feeb1e3cb51103b23d8">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">92922</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Ndf5a4addce8f4c0d9f931c5e746f6b0d">
         <rdf:value>PQ</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
       </rdf:Description>
     </dcterms:subject>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/26820/26820-8.txt">
         <dcterms:isFormatOf rdf:resource="ebooks/26820"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-10-07T13:59:30</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">86032</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N7619051c629b41a19471b4060383449b">
+          <rdf:Description rdf:nodeID="N43cecdb301494028af9af643e2132167">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=iso-8859-1</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">86032</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2008-10-07T13:59:30</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:title>Ourika</dcterms:title>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="Naa0e1a67c4f5402d9dd0d79b04f362f8">
-        <rdf:value>France -- Fiction</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-      </rdf:Description>
-    </dcterms:subject>
     <dcterms:license rdf:resource="license"/>
+    <dcterms:title>Ourika</dcterms:title>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/32255">
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1828</pgterms:deathdate>
+        <pgterms:alias>Durfort, Claire Louise Rose Bonne de Coëtnempren de Kersaint de, duchesse de Duras</pgterms:alias>
+        <pgterms:webpage rdf:resource="http://fr.wikipedia.org/wiki/Claire_de_Duras"/>
+        <pgterms:name>Duras, Claire de Durfort, duchesse de</pgterms:name>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1777</pgterms:birthdate>
+        <pgterms:alias>Durfort, Claire Louise Rose Bonne de Coetnempren de Kersaint de, duchesse de Duras</pgterms:alias>
+        <pgterms:webpage rdf:resource="http://en.wikipedia.org/wiki/Claire_de_Duras"/>
+      </pgterms:agent>
+    </dcterms:creator>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/26820.qioo">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">95278</dcterms:extent>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/26820.rdf">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12412</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T05:20:57.718482</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/26820"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-19T10:39:05.774606</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Na17172c7f1624f648182d108db8ad417">
+          <rdf:Description rdf:nodeID="Nfece6eac9173427b8774ce194aff77c1">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-qioo-ebook</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N886b5cc6191c45f9b960d6c71b6f8095">
+        <rdf:value>France -- Fiction</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/26820.kindle.noimages">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T03:25:27.879584</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N70c8f5293cc14396abe0ea86fcd53abe">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">169347</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/26820"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
   </pgterms:ebook>
   <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
   </cc:Work>
-  <rdf:Description rdf:about="http://fr.wikipedia.org/wiki/Claire_de_Duras">
-    <dcterms:description>fr.wikipedia</dcterms:description>
-  </rdf:Description>
   <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Claire_de_Duras">
     <dcterms:description>en.wikipedia</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://fr.wikipedia.org/wiki/Claire_de_Duras">
+    <dcterms:description>fr.wikipedia</dcterms:description>
   </rdf:Description>
 </rdf:RDF>
